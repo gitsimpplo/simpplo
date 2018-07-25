@@ -1,0 +1,15 @@
+  - title: Administración de Servicios
+    text: La mejor manera de llevar el control de todos los servicios. Recibe información de tus adeudos y pagar en un mismo lugar.
+    img: i-servicios.svg
+
+  - title: Crédito
+    text: Garantiza la rapidez en solicitud y otorgamiento de créditos; brinda mejor visibilidad y control al usuario sobre el estatus de su crédito. 
+    img: i-creditos.svg
+
+  - title: Ahorro
+    text: La herramienta ideal para cumplir con objetivos financieros a corto y largo plazo.
+    img: i-ahorro.svg
+
+  - title: Envio de dinero
+    text: Brinda el servicio de transferencia de dinero a través de números celulares, por medio de mensajes SMS. 
+    img: i-envios.svg

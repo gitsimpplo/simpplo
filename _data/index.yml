@@ -1,0 +1,31 @@
+# Sección 3
+title: Simpplo es la mejor herramienta para tu negocio
+
+text: Nos especializamos en generar valor a tus usuarios a través de soluciones financieras al alcance de su mano que simplifican su día a día. Nuestras diferentes herramientas nos han posicionado como el mejor asistente personal B2B en el mercado.
+
+s2-button: CONTÁCTANOS
+
+s2-img: img-graph.svg
+
+#logo
+logo: s-full-logo.svg
+
+#Sección 3
+
+s3-title: QUÉ NOS HACE ÚNICOS
+
+var:
+  - title: Características
+    subfolderitems:
+      - li: Atención personal a clientes
+      - li: Análisis de datos sobre comportamiento de usuarios. 
+      - li: Plataforma móvil especializada en interfaz y experiencia de usuario.
+  - title: Ventajas
+    subfolderitems:
+      - li: Mejora tu percepción de marca.
+      - li: Ahorra tiempo en desarrollo y construcción de producto.
+      - li: Permite que tu marca resalte ante tu competencia.
+      - li: Simplifica el proceso de administración y seguimiento de transacciones de tus usuarios.
+
+s4-title: NUESTROS PRODUCTOS
+Productos: Nuestra suite de productos brinda diferentes herramientas a tu empresa para solucionar las necesidades actuales del mercado, optimizar presupuestos, ampliar tu cartera de clientes y destacar entre tus competidores.

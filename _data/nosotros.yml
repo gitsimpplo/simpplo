@@ -1,0 +1,20 @@
+p: Somos un equipo de innovadores en el desarrollo tecnológico financiero, con herramientas únicas para complementar los servicios core de nuestros clientes. <br><br> Ofrecemos soluciones para retener y fidelizar clientes existentes, así como prospectar y atacar nuevos mercados a través de soluciones y productos enfocados en experiencia de usuario y accesibilidad a través de dispositivos móviles. <br> <br> Nos especializamos en transformar las experiencias de los usuarios de nuestros clientes, entre los que destacan Financieras, Bancos, Cajas de Ahorro y Billeteras, con soluciones fáciles e intuitivas que permiten un mejor enfoque en lo que más importa, sus usuarios. En resumen; en SIMPPLO, nos dedicamos a facilitar la vida de nuestros clientes a través de plataformas digitales y web services.
+
+logo: Simpplo-svg.svg
+
+bank: bank.svg
+
+title1: nuestra pasión
+
+p2: Nos motiva ofrecer una alternativa incluyente de servicios financieros, asi como simplificar la vida de nuestros clientes y sus usuarios con herramientas diseñadas de acuerdo a sus necesidades financieras.
+
+title2: SIMPPLO es para...
+
+ul:
+  - li: BANCOS 
+  - li: ADMINISTRADORES DE NÓMINA
+  - li: SOFOMs
+  - li: CAJAS DE AHORRO 
+  - li: EMPRESAS TRANSACIONALES
+  - li: ...y más 
+

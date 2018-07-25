@@ -1,0 +1,45 @@
+---
+layout: index
+class: nav-blue
+toggle: toggle-bl
+brand: isotipo-blue.svg
+permalink: /nosotros/
+---
+{% include nav.html %}
+<section id="nosotros">
+	<div class="container">
+		<div class="row d-flex justify-content-center">
+			<div class="col-md-7 col-12">
+				<img src="{{ site.baseurl }}/assets/img/{{site.data.nosotros.logo}}">
+				<p class="description">{{site.data.nosotros.p}}</p>
+			</div>
+		</div>
+	</div>
+		<div class="container-fluid banner-g">
+			<div class="row">
+				<div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
+					<h2>{{site.data.nosotros.title1}}</h2>
+				</div>
+				<div class="col-sm-12 col-md-4 d-flex justify-content-start text-right">
+					<p>{{site.data.nosotros.p2}}</p>
+				</div>
+			</div>
+		</div>
+	<div class="container-fluid mg-t-60">
+		<h3>{{site.data.nosotros.title2}}</h3>
+		<div class="row">
+			
+			<div class="col-sm-12 col-md-6 d-flex justify-content-center">
+				<img src="{{ site.baseurl }}/assets/img/{{site.data.nosotros.bank}}" class="img-fluid">
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<ul class="caracteristicas">
+					{% for element in site.data.nosotros.ul%}
+					<li>{{element.li}}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+{% include footer.html %}

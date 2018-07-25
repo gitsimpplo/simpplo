@@ -1,0 +1,42 @@
+---
+layout: index
+class: nav-white
+toggle: toggle-white
+brand: isotipo-white.svg
+permalink: /como-operamos/
+---
+
+{% include nav.html %}
+
+<section id="operation">
+	<div class="container-fluid">
+		<div class="row d-flex justify-content-center head">
+			<h1>{{site.data.operamos.title}}</h1>
+			<div class="w-100"></div>
+			<p>{{site.data.operamos.p}}</p>
+		</div>
+	</div>
+	<div class="height-h"></div>
+	<div class="container specs">
+		<div class="row">
+			<div class="col-sm-12 col-md-6">
+				<img src="{{ site.baseurl }}/assets/img/{{site.data.operamos.img1}}" class="img-fluid">
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<h3>{{site.data.operamos.title2}}</h3>
+				<p class="text-right">{{site.data.operamos.description}}</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-6">
+				<h3>{{site.data.operamos.title3}}</h3>
+				<p class="text-left">{{site.data.operamos.description2}}</p>
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<img src="{{ site.baseurl }}/assets/img/{{site.data.operamos.img2}}" class="img-fluid">
+			</div>
+		</div>
+	</div>
+</section>
+{% include cta.html %}
+{% include footer.html %}

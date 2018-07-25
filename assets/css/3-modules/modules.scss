@@ -1,0 +1,162 @@
+//NAV
+.Navbar {
+  background-color: none;
+  display: flex;
+  padding: 16px;
+  font-family: $title-font;
+  text-transform: uppercase;
+}
+
+.Navbar__Link {
+  padding-right: 15px;
+  font-family: $title-font;
+  text-decoration: none;
+  margin-top: 8px;
+  
+}
+
+.Navbar__Items {
+  display: flex;
+}
+
+.Navbar__Items--right {
+  margin-left:auto;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+.Navbar__Brand-toggle {
+  display: none;
+}
+
+.nav-white .Navbar__Link a{
+  color: white;
+}
+
+.nav-blue .Navbar__Link a{
+  color: $dark-blue;
+}
+
+.Navbar__Link-brand{
+	text-align:left;
+}
+.Navbar__Link-brand img{
+	height: 70px;
+	align-self: flex-start;
+}
+.nav-white .Navbar__Link a:hover,
+.nav-white .Navbar__Link a:active{
+  color: $dark-blue;
+}
+.nav-blue .Navbar__Link a:hover,
+.nav-blue .Navbar__Link a:active{
+  color: $blue;
+}
+.menu-toggle{
+	border:1px solid;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding: 3px 8px;	
+}
+
+.toggle-white{
+	border-color: white;
+	color: white;
+}
+.toggle-blue{
+	border-color: $dark-blue;
+	color: $dark-blue;
+}
+@media only screen and (max-width: $breakpoint-med-fix) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+  .Navbar__Items {
+    display:none;
+  }
+  .Navbar__Items--right {
+    margin-left:0;
+  }
+  .Navbar__ToggleShow {
+    display: flex;
+    margin: 0 -100px;
+    background-color: rgba(37, 168, 224, 0.33);
+    padding: 25px;
+  }
+  .Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+   } 
+}
+//HEADER//
+.headerbg{
+	background-color: #27DBF4;
+	margin: 0 auto;
+	overflow: hidden;
+	min-height: 500px;
+	padding: 0;
+}
+
+.header-content{
+		background: linear-gradient(219deg, #1f76ea -3%, rgba(255,255,255,0) 42%),linear-gradient(133deg, #601db3 -9%, rgba(255,255,255,0) 40%);
+		width: 100%;
+		color: white;
+		min-height: 500px;
+		overflow: hidden;
+}
+
+.hero-container{
+	padding: 70px 0;
+
+	@media only screen and (max-width: $breakpoint-med-fix) {
+	padding: 20px 25px;
+	}
+}
+//CTA
+.cta-banner{
+	background-color: $cta-blue;
+	min-height: 150px;
+	color: white;
+	padding: 10px 0 20px 0;
+}
+
+
+.cta-text{
+	padding-top:5px;
+	@media only screen and (max-width: $breakpoint-small) {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+}
+	
+
+.cta-title{
+	display: inline;
+
+
+	@media only screen and (max-width: $breakpoint-large) {
+		display: block;
+		font-size: 1.5em;
+	}
+
+}
+
+.cta-subtitle{
+	font-size: 1.5em;
+
+
+	@media only screen and (max-width: $breakpoint-large) {
+		font-size: 1em;
+	}
+
+}
+
+
+
+	

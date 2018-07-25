@@ -1,0 +1,317 @@
+//index
+
+#index{
+	background-color: $grey;
+	padding-top: 100px;
+}
+
+.main-container{
+	background-color: $grey;
+}
+
+.icon-img{
+	margin-top: 15px;
+
+	img{
+		width: 45%;
+	}
+}
+
+.card-text{
+	margin: 10px 15px;
+}
+#s1.col{
+	padding: 5px 10px;
+}
+
+
+
+#skewing{
+overflow: hidden;
+
+}
+.skewed-bg{
+	background-color: $grey;
+    padding: 200px 0;
+    transform: skew(0deg, 10deg);
+    margin-top: -214px;  
+}
+
+.skewed-bg2{
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 53.32%, $grey 100%), #DCEAEF;
+    padding: 60px 0 200px;
+    transform: skew(0deg, -10deg);
+    margin-top: -187px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height:580px;
+}
+
+.brand-banner{
+	background-color: $blue;
+	background-image: linear-gradient(173deg, rgba(255, 255, 255, 0) 4%, rgba(189, 106, 204, 0.762342437) 87%);
+	min-height: 450px;
+	margin-top: -172px;
+	margin-bottom: -20px;
+}
+
+.brand-banner div{
+	padding-bottom: 36px;
+
+	img{
+		width: 80%;
+
+		@media only screen and (max-width: $breakpoint-med) {
+		width: 60%;
+		}
+	}
+
+
+}
+
+.unskew{
+	transform: skew(0deg, 10deg);
+}
+
+#s2{
+	padding:80px 20px 0 0;
+
+	img{
+		min-height: 400px;
+	}
+}
+
+#s2 h3{
+	color: $blue;
+}
+
+#s2>div{
+	margin: 10px 15px;
+}
+
+
+ul.caracteristicas{
+ list-style-image: url("/assets/img/bullet.png");
+}
+
+ul.caracteristicas li {
+	padding: 18px 10px;
+}
+
+#skewing h3{
+	color: $dark-blue;
+}
+#s3 h4{
+	text-transform: uppercase;
+	color: $blue;
+	font-size: 1.5em;
+    padding-left: 20px;
+}
+
+.card-img{
+
+}
+
+#product-showcase h2{
+	color: $dark-blue;
+}
+
+#product-showcase h4{
+	color: $blue;
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+
+#product-showcase .card p{
+	font-size: 1em;
+}
+
+//NOSOTROS
+#nosotros{
+	background-color: $grey;
+	overflow-x: hidden;
+}
+
+
+.banner-g{
+	padding: 50px 0;
+	background-color: $lighter-blue;
+	background-image: linear-gradient(219deg, #1f76ea -3%, rgba(255,255,255,0) 42%),linear-gradient(133deg, #601db3 -9%, rgba(255,255,255,0) 40%);
+}
+
+.banner-g h2{
+	color: white;
+	text-transform: uppercase;
+}
+
+p.description{
+	text-align: justify;
+	padding: 10px;
+}
+
+#nosotros > div.container {
+	padding: 70px 0;
+}
+
+#nosotros > div.container img
+{
+	width: 45%;
+	margin: 15px auto;
+	display: block;
+}
+
+#nosotros h3{
+	color: $dark-blue;
+	margin-bottom:90px;
+	text-align: center;
+}
+
+@media only screen and (max-width: $breakpoint-med-fix){
+	p.description{
+	text-align: justify;
+	padding: 30px;
+	}
+
+#nosotros > div.container img{
+	width: 65%;
+	margin: 15px auto;
+	display: block;
+	}
+.banner-g p {
+	text-align: center;
+	padding: 10px;
+}
+}
+
+//operacion
+
+#operation{
+	overflow: hidden;
+}
+#operation > div.container-fluid{
+	background-color: #322CBB;
+	background-image: linear-gradient(-74.03deg, #3ACFFF 11.55%, rgba(28, 51, 58, 0.4) 83.82%);
+	margin-top:-350px;
+	padding-top: 200px;
+	position: absolute;
+	z-index: -10;
+}
+
+#operation .head p{
+	padding: 0 360px;
+	color: white;
+	text-align: center;
+	margin-bottom: 60px;
+
+}
+
+#operation .head{
+	margin-top: 186px;
+}
+
+#operation .specs p{
+	padding: 0 0;
+	color: black;
+
+}
+#operation h1{
+	text-transform: uppercase;
+	color: white;
+}
+
+#operation h3{
+	text-transform: uppercase;
+	color: $blue;
+}
+.height-h{
+	height: 360px;
+}
+.specs .row{
+	margin-bottom: 40px;
+}
+
+@media only screen and (max-width: $breakpoint-med-fix){
+
+#operation .head p{
+	padding: 0 60px;
+	color: white;
+	text-align: center;
+	margin-bottom: 60px;
+
+}
+
+.height-h{
+	height: 380px;
+}
+
+#operation h1{
+	font-size: 1.6em;
+}
+
+#operation .specs p{
+	padding: 0 0;
+	color: black;
+	text-align: center;
+
+}
+
+}
+
+//CONTACTO
+
+#contacto{
+	height:1200px;
+	overflow: hidden;
+}
+
+#contacto h1{
+	color: $dark-blue;
+}
+
+div.container.title{
+	text-align: center;
+	padding-top: 30px;
+}
+.g-1{
+	min-height:500px;
+	background-image: linear-gradient(227deg, #601db3 34%, rgba(255, 255, 255, 0) 86%), linear-gradient(-80deg, #1f76ea 19%, rgba(255, 255, 255, 0) 100%);
+	margin-top: -500px;
+	overflow: hidden;
+	width: 100%;
+}
+.g-2{
+	min-height:500px;
+	background-color:#27DBF4;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+.g-3{
+	background-color: $blue;
+	background-image: linear-gradient(173deg, rgba(255, 255, 255, 0) 4%, rgba(189, 106, 204, 0.762342437) 87%);
+	min-height:400px;
+}
+
+.g-container{
+	-ms-transform: rotate( -15deg); /* IE 9 */
+    -webkit-transform: rotate(-15deg); /* Safari */
+    transform: rotate(-15deg); /* Standard syntax */
+    margin-top: 150px;
+    width: 201%;
+    margin-left: -154px;
+
+}
+
+.container.form{
+	margin-top: -1000px;
+}
+
+.form h3{
+	color: $blue;
+	text-align: center;
+}
+.form .card p{
+	text-align: center;
+}
