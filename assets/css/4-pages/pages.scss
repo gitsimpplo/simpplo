@@ -184,7 +184,39 @@ p.description{
 }
 }
 //productos
+#productos{
+	overflow: hidden;
+}
+#productos .isblue{
+	background-color: #322CBB;
+	background-image: linear-gradient(-74.03deg, #3ACFFF 11.55%, rgba(28, 51, 58, 0.4) 83.82%);
+	margin-top:-350px;
+	padding-top: 200px;
+	position: absolute;
+	z-index: -10;
+}
 
+#productos .head p{
+	padding: 0 360px;
+	color: white;
+	text-align: center;
+	margin-bottom: 60px;
+
+}
+
+#productos h1{
+	text-transform: uppercase;
+	color:white;
+}
+
+#productos h4{
+	text-transform: uppercase;
+	color: $blue;
+	font-size: 1.3em;
+}
+#productos .head{
+	margin-top: 186px;
+}
 #productos .products .card{
 	margin-top: -50px;
     padding-top: 45px;
@@ -194,12 +226,29 @@ p.description{
   	font-size: 1.2em;
   }
 }
+
+#products .caracteristicas {
+	padding: 0, 20px;
+}
 #productos .products img{
 	padding-left: 15px;
 }
 
 .row-blue{
 	background-color:#e6eaef
+}
+
+.paddit{
+	padding: 30px 10px;
+}
+
+@media only screen and (max-width: $breakpoint-med-fix){
+	#productos .head p{
+	padding: 0 60px;
+	color: white;
+	text-align: center;
+	margin-bottom: 60px;
+   }
 }
 
 //operacion
