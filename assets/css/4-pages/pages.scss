@@ -183,6 +183,24 @@ p.description{
 	padding: 10px;
 }
 }
+//productos
+
+#productos .products .card{
+	margin-top: -50px;
+    padding-top: 45px;
+  h4{
+  	text-transform: uppercase;
+  	color: $blue;
+  	font-size: 1.2em;
+  }
+}
+#productos .products img{
+	padding-left: 15px;
+}
+
+.row-blue{
+	background-color:#e6eaef
+}
 
 //operacion
 
