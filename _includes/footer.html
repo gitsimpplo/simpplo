@@ -1,24 +1,28 @@
 <footer>
 <div class="container-fluid">
-	<div class="row">
+	<div class="row part1">
 		<div class="col">
-			<a href="mailto:"teayudo@simpplo.com>teayudo@simpplo.com</a>
+			<img src="{{site.baseurl}}/assets/img/Simpplo-svg.svg">
+			<a href="mailto:"teayudo@simpplo.com class="phone">teayudo@simpplo.com</a>
 			<p>Tel. (81) 2282 82 82</p>
 		</div>
 		<div class="col">
-			<ul>
-				<li>
-					Links
-				</li>
-			</ul>
+			{% include footernav.html %}
 		</div>
 	</div>
-	<div class="row">
-		<div class="col">
+	<div class="row part2">
+		<div class="col link">
 			<a href="#">Aviso de Privacidad</a>
 		</div>
 		<div class="col d-flex justify-content-end">
-			Iconos Redes Sociales
+			<ul class="social-icons">
+				<li><a href="https://es-la.facebook.com/simpplo/"><img src="{{site.baseurl}}/assets/img/Facebook.svg"></a>
+				</li>
+				<li><a href="https://www.linkedin.com/company/simpplo"><img src="{{site.baseurl}}/assets/img/LinkedIN.svg"></a>
+				</li>
+				<li><a href="https://www.instagram.com/simpplo/"><img src="{{site.baseurl}}/assets/img/Instagram.svg"></a>
+				</li>
+			</ul>
 		</div>
 	</div>
 </div>
